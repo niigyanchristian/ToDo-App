@@ -1,0 +1,15 @@
+.no-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.custom-line-through {
+  text-decoration-line: line-through;
+  text-decoration-color: grey;
+  text-decoration-thickness: 1px;
+  text-decoration-style: wavy;
+}
